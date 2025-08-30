@@ -2,44 +2,30 @@
 
 ## Overview
 
-This repository contains the implementation and simulation code for the Maxwell-Boltzmann cognitive performance model, as described in the paper "Maxwell--Boltzmann Dynamics in Cognitive Performance: A Mathematical Framework for Skill-Dependent Asymmetric Load Modeling."
+This repository contains the implementation and simulation code for the Maxwell-Boltzmann cognitive performance model,
+as described in the paper "Maxwell--Boltzmann Dynamics in Cognitive Performance: A Mathematical Framework for
+Skill-Dependent Asymmetric Load Modeling."
 
 ## Repository Structure
 
 ```
 mb_cognitive_load_model/
 ├── code
-│   ├── requirements.txt
-│   └── src
-│       ├── integrated_model_demo_enhanced.py
-│       └── integrated_model_demo.py
 ├── figures
-│   ├── example_player_performance.png
-│   ├── information_tolerance.png
-│   ├── simulation-begin.png
-│   ├── simulation-mid.png
-│   ├── simulation-pro.png
-│   └── simulation-scratch.png
 ├── LICENSE
 ├── outputs
-│   ├── enhanced_robustness_analysis.png
-│   └── integrated_model_demo.png
 ├── paper
 │   └── par_not_far_cognitive_model.pdf
 ├── README.md
 └── setup.py
 ```
 
-## Quick Start
+## Clone the repository
 
-### Prerequisites
-- Python 3.8+
-
-### Installation
-```bash
-# Clone the repository
+```
 git clone https://github.com/parnotfar/mb_cognitive_load_model.git
 cd mb_cognitive_load_model
+```
 
 ## Model Description
 
