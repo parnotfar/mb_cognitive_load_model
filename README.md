@@ -8,7 +8,6 @@ This repository contains the implementation and simulation code for the Maxwell-
 
 ```
 mb_cognitive_load_model/
-.
 ├── code
 │   ├── requirements.txt
 │   └── src
