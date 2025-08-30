@@ -85,11 +85,11 @@ open par_not_far_cognitive_model.pdf
 If you use this code in your research, please cite:
 
 ```bibtex
-@article{bailey2024maxwell,
+@article{bailey2025maxwell-boltzman,
   title={Maxwell--Boltzmann Dynamics in Cognitive Performance: A Mathematical Framework for Skill-Dependent Asymmetric Load Modeling},
   author={Bailey, Wes},
   journal={Journal of Mathematical Psychology},
-  year={2024}
+  year={2025}
 }
 ```
 
