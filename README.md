@@ -8,27 +8,38 @@ This repository contains the implementation and simulation code for the Maxwell-
 
 ```
 mb_cognitive_load_model/
-├── paper/                    # LaTeX source and bibliography
-│   ├── par_not_far_cognitive_model.tex
-│   └── references.bib
-├── figures/                  # Paper figures and visualizations
-├── code/                     # Python simulation implementation
-│   ├── src/                 # Simulation source code
-│   └── requirements.txt     # Python dependencies
-├── outputs/                  # Simulation-generated outputs
-└── setup.py                 # Installation script
+.
+├── code
+│   ├── requirements.txt
+│   └── src
+│       ├── integrated_model_demo_enhanced.py
+│       └── integrated_model_demo.py
+├── figures
+│   ├── example_player_performance.png
+│   ├── information_tolerance.png
+│   ├── simulation-begin.png
+│   ├── simulation-mid.png
+│   ├── simulation-pro.png
+│   └── simulation-scratch.png
+├── LICENSE
+├── outputs
+│   ├── enhanced_robustness_analysis.png
+│   └── integrated_model_demo.png
+├── paper
+│   └── par_not_far_cognitive_model.pdf
+├── README.md
+└── setup.py
 ```
 
 ## Quick Start
 
 ### Prerequisites
 - Python 3.8+
-- LaTeX distribution (for paper compilation)
 
 ### Installation
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/mb_cognitive_load_model.git
+git clone https://github.com/parnotfar/mb_cognitive_load_model.git
 cd mb_cognitive_load_model
 
 # Install Python dependencies
@@ -47,13 +58,15 @@ python src/integrated_model_demo.py
 
 ## Model Description
 
-The Maxwell-Boltzmann cognitive model describes performance as a function of cognitive load using a three-parameter formulation:
+The Maxwell-Boltzmann cognitive model describes performance as a function of cognitive load using a three-parameter
+formulation:
 
 - **α (alpha)**: Skill level parameter (lower = more skilled)
 - **C_opt**: Optimal cognitive load
 - **k**: Decay rate parameter
 
-The model captures the asymmetric nature of cognitive performance, with rapid ramp-up and gradual decay patterns that vary by skill level.
+The model captures the asymmetric nature of cognitive performance, with rapid ramp-up and gradual decay patterns that
+vary by skill level.
 
 ## Key Features
 
@@ -62,16 +75,10 @@ The model captures the asymmetric nature of cognitive performance, with rapid ra
 - **Validation Framework**: Bootstrap confidence intervals, cross-validation, and model comparison
 - **Dynamic Extension**: Time-dependent cognitive load evolution modeling
 
-## Paper Compilation
-
-To compile the LaTeX paper:
+## Paper Viewing
 
 ```bash
-cd paper
-pdflatex par_not_far_cognitive_model.tex
-bibtex par_not_far_cognitive_model
-pdflatex par_not_far_cognitive_model.tex
-pdflatex par_not_far_cognitive_model.tex
+open par_not_far_cognitive_model.pdf
 ```
 
 ## Citation
@@ -97,4 +104,5 @@ This is an academic research repository. For questions or collaboration, please 
 
 ## Acknowledgments
 
-This work was developed as part of research into cognitive performance modeling and its applications in sports psychology and decision-making theory.
+This work was developed as part of research into cognitive performance modeling and its applications in sports
+psychology and decision-making theory for Par Not Far Inc.
