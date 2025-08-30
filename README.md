@@ -41,20 +41,6 @@ mb_cognitive_load_model/
 git clone https://github.com/parnotfar/mb_cognitive_load_model.git
 cd mb_cognitive_load_model
 
-# Install Python dependencies
-cd code
-pip install -r requirements.txt
-```
-
-### Running the Simulation
-```bash
-# Run enhanced simulation with validation (recommended)
-python src/integrated_model_demo_enhanced.py
-
-# Run basic simulation
-python src/integrated_model_demo.py
-```
-
 ## Model Description
 
 The Maxwell-Boltzmann cognitive model describes performance as a function of cognitive load using a three-parameter
